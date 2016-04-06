@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/libs/planetarcadesdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5afe8b94f33853ba6b90263ae1a3ee9cc1bf7ee4">
+        <dex dex="/home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/build/intermediates/pre-dexed/debug/planetarcadesdk_e03dd938947281cd16581a5985a8749bb423b30d.jar" />
+    </item>
+
+</items>
