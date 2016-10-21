@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="PlanetArcadesdk-release-">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/PlanetArcadesdk-release/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/PlanetArcadesdk-release/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

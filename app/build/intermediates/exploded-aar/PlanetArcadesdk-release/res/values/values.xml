@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlanetArcadeSDK</string>
+    <string name="network_error">Device not connect internet, please retry send data.</string>
+</resources>

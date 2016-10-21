@@ -4,13 +4,16 @@ import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Build;
@@ -46,7 +49,10 @@ import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import jp.co.adways.planetarcade.PlanetArcadeSDK;
+import jp.co.adways.planetarcade.sdk.OnScoreCallback;
+import jp.co.adways.planetarcade.sdk.OnValidateCallback;
+import jp.co.adways.planetarcade.sdk.PlanetArcadeSDKUtil;
+import jp.co.adways.planetarcade.sdk.modules.PlanetArcadeSDKHelper;
 
 public class Manager extends Activity {
 
@@ -54,6 +60,7 @@ public class Manager extends Activity {
     private static final String TAG = "MemoryGame";
     public static final String MyPREFERENCES = "MyPrefs";
     public static final String ClientIDKEY = "ClientIDKEY";
+    public boolean isOpenFromPlanetArcade;
 
     private static int ROW_COUNT = -1;
     private static int COL_COUNT = -1;
@@ -64,6 +71,7 @@ public class Manager extends Activity {
     private Card firstCard;
     private Card seconedCard;
     private ButtonListener buttonListener;
+    private Button button;
 
     private static Object lock = new Object();
     int score = 0;
@@ -73,17 +81,42 @@ public class Manager extends Activity {
     private TextView tvScore;
     private SharedPreferences sharedPreferences;
     private String clientId;
-
+    private PlanetArcadeSDKHelper mPlanetArcadeSDKHelper;
+    private PlanetArcadeSDKUtil mPlanetArcadeSDKUtil;
+    private boolean isFromPA;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Intent intend = getIntent();
+        if (intend != null) {
+            boolean isOpenedFromPA = intend.getBooleanExtra("planetarcade", false);
+            if (isOpenedFromPA) {
+                isFromPA = true;
+            } else {
+                isFromPA = false;
+            }
+        }
+        mPlanetArcadeSDKHelper = new PlanetArcadeSDKHelper(this, true);
+//        mPlanetArcadeSDKUtil = new PlanetArcadeSDKUtil();
+        mPlanetArcadeSDKHelper.validateRemote(new OnValidateCallback() {
+            @Override
+            public void onSuccess() {
+
+            }
+
+            @Override
+            public void onFailure(int i, String s) {
+
+            }
+        });
         try {
-
             PackageInfo info = getPackageManager().getPackageInfo(getPackageName(), PackageManager.GET_SIGNATURES);
+            mPlanetArcadeSDKHelper.getHashKey(getApplicationContext());
+            Log.d("KEY HASH", "TEST   " + mPlanetArcadeSDKHelper.getHashKey(getApplicationContext()));
 
-            for (Signature signature : info.signatures)
-            {
+            for (Signature signature : info.signatures) {
                 MessageDigest md = MessageDigest.getInstance("SHA");
                 md.update(signature.toByteArray());
                 Log.d("KeyHash:", Base64.encodeToString(md.digest(), Base64.DEFAULT));
@@ -102,6 +135,7 @@ public class Manager extends Activity {
         } else {
             startGame();
         }
+
     }
 
     private void startGame() {
@@ -111,13 +145,19 @@ public class Manager extends Activity {
             clientId = createClientId();
         }
         Log.i(TAG, "clientID: " + clientId);
-        PlanetArcadeSDK.setDebugMode(true);
-        PlanetArcadeSDK.sdkInitialize(this);
+        mPlanetArcadeSDKHelper.setDebugMode(true);
 
         handler = new UpdateCardsHandler();
         loadImages();
         setContentView(R.layout.main);
+        button = (Button) findViewById(R.id.btn_switch_to_app);
 
+        button.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openApp();
+            }
+        });
 
         tvScore = (TextView) findViewById(R.id.score);
         tvScore.setText("0");
@@ -138,55 +178,57 @@ public class Manager extends Activity {
                 this, R.array.type, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         s.setAdapter(adapter);
+        if (isFromPA == true) {
+            newGame(2, 2);
+        } else if (isFromPA == false) {
+            newGame(6, 6);
+        } else {
+            s.setOnItemSelectedListener(new OnItemSelectedListener() {
 
+                @Override
+                public void onItemSelected(
+                        android.widget.AdapterView<?> arg0,
+                        View arg1, int pos, long arg3) {
 
-        s.setOnItemSelectedListener(new OnItemSelectedListener() {
+                    ((Spinner) findViewById(R.id.Spinner01)).setSelection(0);
 
-            @Override
-            public void onItemSelected(
-                    android.widget.AdapterView<?> arg0,
-                    View arg1, int pos, long arg3) {
+                    int x, y;
 
-                ((Spinner) findViewById(R.id.Spinner01)).setSelection(0);
-
-                int x, y;
-
-                switch (pos) {
-                    case 1:
-                        x = 4;
-                        y = 4;
-                        break;
-                    case 2:
-                        x = 4;
-                        y = 5;
-                        break;
-                    case 3:
-                        x = 4;
-                        y = 6;
-                        break;
-                    case 4:
-                        x = 5;
-                        y = 6;
-                        break;
-                    case 5:
-                        x = 6;
-                        y = 6;
-                        break;
-                    default:
-                        return;
+                    switch (pos) {
+                        case 1:
+                            x = 2;
+                            y = 2;
+                            break;
+                        case 2:
+                            x = 4;
+                            y = 5;
+                            break;
+                        case 3:
+                            x = 4;
+                            y = 6;
+                            break;
+                        case 4:
+                            x = 5;
+                            y = 6;
+                            break;
+                        case 5:
+                            x = 6;
+                            y = 6;
+                            break;
+                        default:
+                            return;
+                    }
+                    newGame(x, y);
                 }
-                newGame(x, y);
 
-            }
+                @Override
+                public void onNothingSelected(AdapterView<?> arg0) {
+                    // TODO Auto-generated method stub
 
+                }
 
-            @Override
-            public void onNothingSelected(AdapterView<?> arg0) {
-                // TODO Auto-generated method stub
-
-            }
-
-        });
+            });
+        }
     }
 
     private String createClientId() {
@@ -433,7 +475,19 @@ public class Manager extends Activity {
                     tvScore.setText("Your score is " + mainScore);
                     tvScore.setVisibility(View.VISIBLE);
                     Log.i(TAG, "clientID: " + clientId);
-                    PlanetArcadeSDK.submitScore(Manager.this, clientId, mainScore + "", "0");
+                    if (mPlanetArcadeSDKHelper.isValidated()) {
+                        mPlanetArcadeSDKHelper.submitScore(clientId, mainScore, 0, new OnScoreCallback() {
+                            @Override
+                            public void onSuccess() {
+                                Log.d(TAG, "Submit Score Successfull");
+                            }
+
+                            @Override
+                            public void onFailure(int i, String s) {
+
+                            }
+                        });
+                    }
                 }
                 firstCard.button.setVisibility(View.INVISIBLE);
                 seconedCard.button.setVisibility(View.INVISIBLE);
@@ -534,4 +588,30 @@ public class Manager extends Activity {
         return true;
     }
 
+    private void openApp() {
+        String packageName = "net.planetarcade.stag";
+        boolean isInstalled = isIntalledApp(packageName, getApplicationContext());
+        if (isInstalled) {
+            Intent launcher = getPackageManager().getLaunchIntentForPackage(packageName);
+            Bundle bundle = launcher.getExtras();
+            startActivity(launcher);
+        } else {
+            Intent i = new Intent(android.content.Intent.ACTION_VIEW);
+            i.setData(Uri.parse("https://play.google.com/store/apps/details?id=net.planetarcade.stag"));
+            startActivity(i);
+        }
+    }
+
+    public boolean isIntalledApp(String uri, Context context) {
+        PackageManager pm = context.getPackageManager();
+        boolean isInstalled;
+        try {
+            pm.getPackageInfo(uri, PackageManager.GET_ACTIVITIES);
+            isInstalled = true;
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+            isInstalled = false;
+        }
+        return isInstalled;
+    }
 }

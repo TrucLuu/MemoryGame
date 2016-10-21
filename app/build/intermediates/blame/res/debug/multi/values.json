@@ -1,63 +1,844 @@
 [
     {
-        "outputFile": "/home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/build/intermediates/res/merged/debug/values/values.xml",
+        "outputFile": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
-                    "startOffset": 55,
+                    "startOffset": 105,
                     "endLine": 9,
                     "endColumn": 19,
-                    "endOffset": 266
+                    "endOffset": 316
                 },
                 "from": {
-                    "file": "/home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/res/values/strings.xml",
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 5,
-                        "startOffset": 184,
+                        "startOffset": 180,
                         "endLine": 12,
                         "endColumn": 19,
-                        "endOffset": 395
+                        "endOffset": 391
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 271,
-                    "endColumn": 48,
-                    "endOffset": 315
+                    "startOffset": 860,
+                    "endColumn": 66,
+                    "endOffset": 922
                 },
                 "from": {
-                    "file": "/home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/res/values/strings.xml",
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/version.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 55,
-                        "endColumn": 48,
-                        "endOffset": 99
+                        "endColumn": 66,
+                        "endOffset": 117
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 320,
-                    "endColumn": 73,
-                    "endOffset": 389
+                    "startOffset": 927,
+                    "endColumn": 41,
+                    "endOffset": 964
                 },
                 "from": {
-                    "file": "/home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/res/values/strings.xml",
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 210,
+                        "endColumn": 41,
+                        "endOffset": 247
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 969,
+                    "endColumn": 44,
+                    "endOffset": 1009
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 44,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1014,
+                    "endColumn": 91,
+                    "endOffset": 1101
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/auth_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 253,
+                        "endColumn": 91,
+                        "endOffset": 340
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1106,
+                    "endColumn": 87,
+                    "endOffset": 1189
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/auth_strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 104,
+                        "startOffset": 109,
+                        "endColumn": 87,
+                        "endOffset": 192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1194,
+                    "endColumn": 156,
+                    "endOffset": 1346
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 733,
+                        "endColumn": 160,
+                        "endOffset": 889
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1351,
+                    "endColumn": 144,
+                    "endOffset": 1491
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 4602,
+                        "endColumn": 148,
+                        "endOffset": 4746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1496,
+                    "endColumn": 108,
+                    "endOffset": 1600
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 4026,
+                        "endColumn": 108,
+                        "endOffset": 4130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1605,
+                    "endColumn": 231,
+                    "endOffset": 1832
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 7585,
+                        "endColumn": 235,
+                        "endOffset": 7816
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1837,
+                    "endColumn": 125,
+                    "endOffset": 1958
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 3483,
+                        "endColumn": 125,
+                        "endOffset": 3604
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1963,
+                    "endColumn": 180,
+                    "endOffset": 2139
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 3087,
+                        "endColumn": 184,
+                        "endOffset": 3267
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2144,
+                    "endColumn": 124,
+                    "endOffset": 2264
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 2811,
+                        "endColumn": 124,
+                        "endOffset": 2931
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2269,
+                    "endColumn": 138,
+                    "endOffset": 2403
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1266,
+                        "endColumn": 142,
+                        "endOffset": 1404
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2408,
+                    "endColumn": 123,
+                    "endOffset": 2527
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 2540,
+                        "endColumn": 123,
+                        "endOffset": 2659
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2532,
+                    "endColumn": 212,
+                    "endOffset": 2740
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1843,
+                        "endColumn": 216,
+                        "endOffset": 2055
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2745,
+                    "endColumn": 214,
+                    "endOffset": 2955
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 2225,
+                        "endColumn": 218,
+                        "endOffset": 2439
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2960,
+                    "endColumn": 122,
+                    "endOffset": 3078
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1556,
+                        "endColumn": 122,
+                        "endOffset": 1674
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3083,
+                    "endColumn": 164,
+                    "endOffset": 3243
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 6084,
+                        "endColumn": 164,
+                        "endOffset": 6244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3248,
+                    "endColumn": 93,
+                    "endOffset": 3337
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 5869,
+                        "endColumn": 93,
+                        "endOffset": 5958
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3342,
+                    "endColumn": 136,
+                    "endOffset": 3474
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1033,
+                        "endColumn": 136,
+                        "endOffset": 1165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3479,
+                    "endColumn": 140,
+                    "endOffset": 3615
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 5611,
+                        "endColumn": 140,
+                        "endOffset": 5747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3620,
+                    "endColumn": 89,
+                    "endOffset": 3705
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 5408,
+                        "endColumn": 89,
+                        "endOffset": 5493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3710,
+                    "endColumn": 147,
+                    "endOffset": 3853
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 449,
+                        "endColumn": 147,
+                        "endOffset": 592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3858,
+                    "endColumn": 102,
+                    "endOffset": 3956
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 206,
+                        "endColumn": 102,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3961,
+                    "endColumn": 150,
+                    "endOffset": 4107
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 8155,
+                        "endColumn": 150,
+                        "endOffset": 8301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4112,
+                    "endColumn": 91,
+                    "endOffset": 4199
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 7940,
+                        "endColumn": 91,
+                        "endOffset": 8027
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4204,
+                    "endColumn": 110,
+                    "endOffset": 4310
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 84,
+                        "startColumn": 4,
+                        "startOffset": 6385,
+                        "endColumn": 110,
+                        "endOffset": 6491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4315,
+                    "endColumn": 218,
+                    "endOffset": 4529
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 6861,
+                        "endColumn": 222,
+                        "endOffset": 7079
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4534,
+                    "endColumn": 94,
+                    "endOffset": 4624
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 87,
+                        "startColumn": 4,
+                        "startOffset": 6629,
+                        "endColumn": 94,
+                        "endOffset": 6719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4629,
+                    "endColumn": 104,
+                    "endOffset": 4729
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 7178,
+                        "endColumn": 104,
+                        "endOffset": 7278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4734,
+                    "endColumn": 180,
+                    "endOffset": 4910
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 4285,
+                        "endColumn": 184,
+                        "endOffset": 4465
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4915,
+                    "endColumn": 124,
+                    "endOffset": 5035
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 3755,
+                        "endColumn": 124,
+                        "endOffset": 3875
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 5040,
+                    "endColumn": 174,
+                    "endOffset": 5210
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 4,
+                        "startOffset": 5120,
+                        "endColumn": 178,
+                        "endOffset": 5294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 5215,
+                    "endColumn": 104,
+                    "endOffset": 5315
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 4881,
+                        "endColumn": 104,
+                        "endOffset": 4981
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 5320,
+                    "endColumn": 62,
+                    "endOffset": 5378
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/values/common_strings.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 7378,
+                        "endColumn": 62,
+                        "endOffset": 7436
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 5383,
+                    "endColumn": 88,
+                    "endOffset": 5467
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 368,
+                        "endColumn": 88,
+                        "endOffset": 452
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 5472,
+                    "endColumn": 71,
+                    "endOffset": 5539
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 296,
+                        "endColumn": 71,
+                        "endOffset": 363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 5544,
+                    "endColumn": 43,
+                    "endOffset": 5583
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 252,
+                        "endColumn": 43,
+                        "endOffset": 291
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 5588,
+                    "endColumn": 94,
+                    "endOffset": 5678
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/PlanetArcadesdk-release/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 94,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 5683,
+                    "endColumn": 95,
+                    "endOffset": 5774
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 114,
+                        "endColumn": 95,
+                        "endOffset": 205
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 5779,
+                    "endColumn": 58,
+                    "endOffset": 5833
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 58,
+                        "endOffset": 109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 5838,
+                    "endColumn": 73,
+                    "endOffset": 5907
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 100,
                         "endColumn": 73,
-                        "endOffset": 173
+                        "endOffset": 169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 5912,
+                    "endLine": 65,
+                    "endColumn": 10,
+                    "endOffset": 6331
+                },
+                "from": {
+                    "file": "/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/res/values/admob_iap_style.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 2,
+                        "startOffset": 53,
+                        "endLine": 9,
+                        "endColumn": 10,
+                        "endOffset": 472
                     }
                 }
             }

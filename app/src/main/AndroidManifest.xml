@@ -10,28 +10,52 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
 
     <application
         android:icon="@drawable/icon"
-        android:theme="@android:style/Theme.Holo.NoActionBar"
-        android:label="@string/app_name">
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.NoActionBar">
         <activity
             android:name=".Manager"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            >
+            android:screenOrientation="portrait">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com.esport"
+                    android:scheme="planet-sdk" />
+
             </intent-filter>
         </activity>
+
+        <receiver
+            android:name=".PlanetArcadeReferrerReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+
         <!--Update param app key and app id -->
         <meta-data
             android:name="app_key"
-            android:value="pEptuFAwFGrjdYj3Ip9FUg" />
+            android:value="cLINNtHyRpRtGSLON40jNQ" />
         <meta-data
             android:name="app_id"
-            android:value="Lqkvt5X68R7n0d-gZc_TBg" />
+            android:value="V1tNQ-04gdGfzYUg0S3ssA" />
     </application>
 
 </manifest> 

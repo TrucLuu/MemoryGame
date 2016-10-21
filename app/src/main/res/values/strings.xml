@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Memory Game</string>
+    <string name="app_name">Pikachu</string>
     <string name="text_grant_access">You need to grant access to</string>
     
      <string-array name="type">

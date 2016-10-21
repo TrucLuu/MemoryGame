@@ -16,8 +16,15 @@ android {
         }
     }
 }
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
 
 dependencies {
-    compile files('libs/esportsdk.jar')
-    compile files('libs/planetarcadesdk.jar')
+    compile (name: 'PlanetArcadesdk-release', ext: 'aar')
+    compile 'com.android.support:support-v4:23.2.0'
+    compile 'com.google.android.gms:play-services-ads:8.3.0'
 }

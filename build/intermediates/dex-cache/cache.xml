@@ -2,11 +2,76 @@
 <items version="2" >
 
     <item
-        jar="/home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/libs/planetarcadesdk.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/likewise-open/FRAMGIA/luu.hoang.truc/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="23.0.2"
-        sha1="5afe8b94f33853ba6b90263ae1a3ee9cc1bf7ee4">
-        <dex dex="/home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/build/intermediates/pre-dexed/debug/planetarcadesdk_e03dd938947281cd16581a5985a8749bb423b30d.jar" />
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.0_afec9f3c8bac9d85b07d6e2702a6b9124762e7ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.3.0_bc04473d557748776b50586f823392d9c94ce1db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="27775d59b16610ac76f1b83693fedd9520396332">
+        <dex dex="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-8.3.0_6a8c9e4ae6301766632a9405b5def8ac90d144c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/PlanetArcadesdk-release/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="aac71f830d1a251f596e620bb14952e9eddc792e">
+        <dex dex="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-PlanetArcadesdk-release_39893a293f51818a7c4651a8fed9c91fefa6b818/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f73b27584cff5b2f2402165c297ecd094f6b2a5d">
+        <dex dex="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6bca87db7c24d70e57fc7c28408e312e0ce509c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.0_e5a0de59dab705ad30704a00a87f93c6f01d5662/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.0_21584a599d1350aa9a880d998cf1cfe83b4187d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7db17596d9bda1de3ef7a24bf1a198bd1679cd6">
+        <dex dex="/home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f373aa779d5c424aadd9bfc7c75af2df17dd9523/classes.dex" />
     </item>
 
 </items>

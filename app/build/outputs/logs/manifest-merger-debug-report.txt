@@ -1,83 +1,157 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:2:1-37:12
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:2:1-61:12
 	package
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:3:5-30
-		INJECTED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml
-		INJECTED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml
+		INJECTED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml
-		INJECTED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml
+		INJECTED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml
-		INJECTED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml
+		INJECTED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:8:5-67
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:8:22-64
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:9:5-79
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:21:5-78
 	android:name
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:9:22-76
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:9:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:10:5-76
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:10:5-76
 	android:name
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:10:22-73
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:10:22-73
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:11:5-75
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:11:5-75
 	android:name
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:11:22-72
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:11:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:12:5-80
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:12:5-80
 	android:name
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:12:22-77
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:14:22-77
 application
-ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:14:5-35:19
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:16:5-59:19
+MERGED from [:PlanetArcadesdk-release:] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/PlanetArcadesdk-release/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.2.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:17:9-41
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:18:9-41
+	android:supportsRtl
+		ADDED from [:PlanetArcadesdk-release:] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/PlanetArcadesdk-release/AndroidManifest.xml:14:9-35
 	android:icon
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:15:9-38
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:17:9-38
+	android:allowBackup
+		ADDED from [:PlanetArcadesdk-release:] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/PlanetArcadesdk-release/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:16:9-62
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:19:9-62
 activity#com.aviy.memory.Manager
-ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:18:9-27:20
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:20:9-42:20
 	android:screenOrientation
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:21:13-49
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:23:13-49
 	android:label
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:20:13-45
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:22:13-45
 	android:name
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:19:13-36
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:21:13-36
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:23:13-26:29
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:27:27-74
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:31:13-41:29
+action#android.intent.action.VIEW
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:34:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:35:17-78
+	android:name
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:35:27-75
+data
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:37:17-39:51
+	android:host
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:38:21-46
+	android:scheme
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:39:21-48
+receiver#com.aviy.memory.PlanetArcadeReferrerReceiver
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:46:13-36
+	android:name
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:45:13-57
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:47:13-49:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:48:17-78
+	android:name
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:48:25-76
 meta-data#app_key
-ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:29:9-31:54
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:53:9-55:54
 	android:value
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:31:13-51
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:55:13-51
 	android:name
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:30:13-35
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:54:13-35
 meta-data#app_id
-ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:32:9-34:54
+ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:56:9-58:54
 	android:value
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:34:13-51
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:58:13-51
 	android:name
-		ADDED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml:33:13-34
+		ADDED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml:57:13-34
 uses-sdk
-INJECTED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [:PlanetArcadesdk-release:] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/PlanetArcadesdk-release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.2.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		INJECTED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml
-		INJECTED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml
+		INJECTED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml
+		INJECTED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml
-		INJECTED from /home/likewise-open/FRAMGIA/nguyen.hong.son/MemoryGame/app/src/main/AndroidManifest.xml
+		INJECTED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml
+		INJECTED from /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:30:19-91
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.3.0] /home/likewise-open/FRAMGIA/luu.hoang.truc/AndroidStudioProject/MemoryGame/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:22:13-58
